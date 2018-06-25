@@ -37,8 +37,46 @@ https://hackernoon.com/graphql-tips-after-a-year-in-production-419341db52e3
 
 
 https://github.com/chentsulin/awesome-graphql
+https://github.com/chentsulin/awesome-graphql#example-js
 
 https://dev-blog.apollodata.com/how-to-build-graphql-servers-87587591ded5
 https://dev-blog.apollodata.com/full-stack-error-handling-with-graphql-apollo-5c12da407210
 https://dev-blog.apollodata.com/schema-validation-with-apollo-engine-4032456425ba
 https://dev-blog.apollodata.com/testing-apollos-query-component-d575dc642e04
+
+
+http://fake.graphql.guru/
+https://github.com/bswinnerton/nyc-restaurant-grades
+https://www.compose.com/articles/using-graphql-with-mongodb/
+
+https://github.com/igorlima/todo-mongo-graphql-server
+
+https://www.google.com.ua/search?q=graphql+facebook+authentication&oq=graphql+facebook+au&aqs=chrome.1.69i57j0l2.6808j0j4&sourceid=chrome&ie=UTF-8
+https://github.com/graphcool-examples/react-graphql/tree/master/authentication-with-facebook-and-apollo
+https://medium.com/techsource-pro/facebook-login-with-react-and-graphql-a128243dc841
+
+https://dev-blog.apollodata.com/graphql-at-facebook-by-dan-schafer-38d65ef075af
+https://graphql.org/learn/authorization/
+
+https://github.com/APIs-guru/graphql-faker
+https://github.com/andev-software/graphql-ide
+
+
+https://www.graph.cool/
+
+https://www.apollographql.com/engine/
+
+https://dev-blog.apollodata.com/graphql-tools-a-simpler-way-to-create-graphql-apis-eadf018f3766
+
+https://github.com/okgrow/graphql-scalars
+https://www.npmjs.com/package/graphql-custom-types
+https://www.npmjs.com/package/graphql-scalars
+
+https://github.com/rse/graphql-tools-types
+
+
+https://wehavefaces.net/graphql-shorthand-notation-cheatsheet-17cd715861b6
+
+https://dev-blog.apollodata.com/graphql-tools-a-simpler-way-to-create-graphql-apis-eadf018f3766
+
+https://launchpad.graphql.com/890l4w5wq
