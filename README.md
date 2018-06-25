@@ -80,3 +80,13 @@ https://wehavefaces.net/graphql-shorthand-notation-cheatsheet-17cd715861b6
 https://dev-blog.apollodata.com/graphql-tools-a-simpler-way-to-create-graphql-apis-eadf018f3766
 
 https://launchpad.graphql.com/890l4w5wq
+https://github.com/apollographql/eslint-plugin-graphql !
+https://github.com/cjoudrey/graphql-schema-linter
+
+https://dev-blog.apollodata.com/reusable-graphql-schema-directives-131fb3a177d1
+
+https://github.com/graphql/graphiql
+
+https://dev-blog.apollodata.com/reusable-graphql-schema-directives-131fb3a177d1
+
+https://itnext.io/graphql-mongoose-a-design-first-approach-d97b7f0c869
