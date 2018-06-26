@@ -32,3 +32,19 @@ type Ingredient {
   custom: Boolean!
   department: Department!
 }
+
+type Query {
+  departmentsList($id: id): [Department!]!
+}
+
+type Query {
+  purchasedIngredients: [Ingredient!]!
+}
+
+type Mutation {
+  createGroceryList(name: String!, image: String!, description: String!, slug: String!)
+}
+
+type Subscription {
+  newGrocery: Grocery!
+}
