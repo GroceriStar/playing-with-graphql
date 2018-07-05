@@ -1,0 +1,22 @@
+{
+  "name": "playing-with-graphql",
+  "version": "1.0.0",
+  "description": "Just experimenting how GraphQL works. First experience with GraphQL.",
+  "main": "groceristar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanchit94/playing-with-graphql.git"
+  },
+  "author": "Sanchit Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanchit94/playing-with-graphql/issues"
+  },
+  "homepage": "https://github.com/sanchit94/playing-with-graphql#readme",
+  "dependencies": {
+    "graphql": "^0.13.2"
+  }
+}
