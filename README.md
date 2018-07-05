@@ -1,5 +1,20 @@
 # playing-with-graphql
 
+# For setting up this project, follow:
+https://graphql.org/graphql-js/
+
+# Links to MongoDB database:
+"url": "mongodb://heroku_p3w65n77:h3ab8q3uaqdk7tjrauhbl7dd6r@ds235065.mlab.com:35065/heroku_p3w65n77",
+"name": "groceryDS",
+"searchDS": {
+"url": "mongodb://heroku_ghbnqks1:eb8kogbcofqvkh13d6ccep825l@ds139994.mlab.com:39994/heroku_ghbnqks1"
+},
+"recipeDS": {
+"url": "mongodb://heroku_p0dxgncb:gl2rr2bi235aoqfdojelqspjn1@ds147052.mlab.com:47052/heroku_p0dxgncb"
+}
+
+
+# Other links for further reading
 https://graphql.github.io/learn/best-practices/
 
 https://graphql.github.io/learn/pagination/
