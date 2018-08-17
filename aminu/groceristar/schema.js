@@ -1,36 +1,36 @@
 type User {
     userId: ID,
-    favs: Binary,
+    favs: String,
     ingredient_id: ID,
     grocery_id: ID
 }
 
 type Grocery {
     grocery_id: ID,
-    name: Binary,
-    img: Binary,
-    desc: Binary,
-    slug: Binary,
+    name: String,
+    img: String,
+    desc: String,
+    slug: String,
     created_at: Date,
     updated_at: Date,
     id_1: ID,
-    favs: Binary
+    favs: String
 }
 
 type Item {
     item_id: ID,
-    name: Binary,
-    description: Binary,
+    name: String,
+    description: String,
     quantity: Int,
-    purchase: Binary
+    purchase: String
 }
 
 type Ingredient {
-    favs: Binary,
+    favs: String,
     ingredient_id: ID,
-    name: Binary,
-    description: Binary,
-    custom: Binary,
+    name: String,
+    description: String,
+    custom: String,
     created_at: Date,
     updated_at: Date,
     id_1: ID,
@@ -45,26 +45,26 @@ type UserGrocery {
 type UserFav {
     ingredient_id: ID,
     userId: ID,
-    favs: Binary,
+    favs: String,
     grocery_id: ID
 }
 
 type Department {
     department_id: ID,
-    name: Binary,
-    desc: Binary,
+    name: String,
+    desc: String,
     created_at: Date,
     updated_at: Date
 }
 
-type AccessToken {
-    userId: ID
-}
+// type AccessToken {
+//     userId: ID
+// }
 
-type UserCredential {
-    userId: ID
-}
+// type UserCredential {
+//     userId: ID
+// }
 
-type UserIdentity {
-    userId_1: ID
-}
+// type UserIdentity {
+//     userId_1: ID
+// }
