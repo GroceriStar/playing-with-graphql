@@ -1,0 +1,26 @@
+{
+  "name": "playing-with-graphql",
+  "version": "1.0.0",
+  "description": "A Simple Setup for GraphQL Server",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GroceriStar/playing-with-graphql.git"
+  },
+  "author": "Aminu Kano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GroceriStar/playing-with-graphql/issues"
+  },
+  "homepage": "https://github.com/GroceriStar/playing-with-graphql#readme"
+}
