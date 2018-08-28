@@ -1,3 +1,4 @@
+const resolvers = require('./Sultan/schema');
 const express = require('express'); // requiring express web framework
 const app = express(); // executing express as app
 const graphqlHTTP = require('express-graphql'); // requiring express-graphql to mount GraphQL API server
@@ -22,8 +23,8 @@ const helloRoot = {
 
 // A sample endpoint 
 app.use('/graphql', graphqlHTTP({
-    schema: helloSchema,
-    rootValue: helloRoot,
+    schema: resolvers[0],
+    rootValue: resolvers[1].Query,
     graphiql: true // set true to manually issue queries with GraphiQL tool
 }));
 
