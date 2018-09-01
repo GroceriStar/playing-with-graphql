@@ -1,3 +1,6 @@
+var data = require('@groceristar/groceristar-fetch/groceristar')
+console.log(data.getDepartments());
+
 const department_1 = {
   id: '1',
   name: 'Department 1',

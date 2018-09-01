@@ -1,3 +1,6 @@
+var data = require('@groceristar/groceristar-fetch/groceristar')
+console.log(data.getGrocery());
+
 let myUser = {
     userId: '1',
     favs: 'my favs',
