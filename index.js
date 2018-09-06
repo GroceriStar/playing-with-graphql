@@ -173,11 +173,44 @@ const departmentMutation = mutationWithClientMutationId({
     })
 });
 
+const userMutation = mutationWithClientMutationId({
+    name: 'addUser',
+    inputFields: {
+        name: {
+            type: GraphQLString,
+            description: 'The name of the user'
+        },
+        favs: {
+            type: GraphQLString,
+            description: 'User favourites'
+        },
+        grocery_id: {
+            type: GraphQLID,
+            description: 'User groceries'
+        },
+        ingredient_id: {
+            type: GraphQLID,
+            description: 'User ingredients'
+        }
+    },
+    outputFields: {
+        user: {
+            type: userType
+        }
+    },
+    mutateAndGetPayload: (args) => new Promise((resolve, reject) => {
+        Promise.resolve(dataHandler.createType.createUser(args))
+            .then((user) => resolve({ user }))
+            .catch(reject);
+    })
+});
+
 const mutationType = new GraphQLObjectType({
     name: 'Mutation',
     description: 'Root mutation type',
     fields: {
-        createDepartment: departmentMutation
+        createDepartment: departmentMutation,
+        createUser: userMutation
     }
 });
 
