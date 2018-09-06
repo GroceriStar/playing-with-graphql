@@ -1,3 +1,8 @@
+# Setting up the server
+Install latest versions of  node.js and npm 
+type the command `npm start`
+open `http://localhost:3000/graphql` on your browser to test the server
+
 # playing-with-graphql
 
 # For setting up this project, follow:
