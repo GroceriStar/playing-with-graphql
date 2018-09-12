@@ -11,10 +11,13 @@
     "graphql-relay": "^0.5.5",
     "lodash": "^4.17.10"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "develop": "nodemon index.js"
   },
   "repository": {
     "type": "git",
