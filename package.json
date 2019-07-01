@@ -7,7 +7,7 @@
     "@groceristar/groceristar-fetch": "^1.1.37",
     "express": "^4.16.4",
     "express-graphql": "^0.7.1",
-    "graphql": "^14.0.2",
+    "graphql": "^14.4.1",
     "graphql-relay": "^0.5.5",
     "lodash": "^4.17.10"
   },
