@@ -9,7 +9,7 @@
     "express-graphql": "^0.7.1",
     "graphql": "^14.0.2",
     "graphql-relay": "^0.5.5",
-    "lodash": "^4.17.10"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"
